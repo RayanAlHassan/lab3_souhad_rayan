@@ -39,28 +39,51 @@
 // findMinMax();
 
 //ex 3
-var n; // decleare a variable that take the nb of line 
-n=parseInt(prompt("enter nb of line"))
+// var n; // decleare a variable that take the nb of line 
+// n=parseInt(prompt("enter nb of line"))
 
-    for(let i=1; i<=n ; i++){ // nb of line
-        for(let j =1 ; j<=i; j++){  // nb of column
-console.log("*")
-        }
-        console.log("\n")
-    }
+//     for(let i=1; i<=n ; i++){ // nb of line
+//         for(let j =1 ; j<=i; j++){  // nb of column
+// console.log("*")
+//         }
+//         console.log("\n")
+//     }
 
-//ex 4
-
-// var arr =  [50, 70, 20, 80, 13];
-// var max=arr[0] ;
-// for(let i=0; i<arr.length; i++){
-//  for(let j=0; j<arr.length; j++){
-//   if(max[i] > max[j]){
-//     max=arr[i]
-//   }
-//  }
+// ex 4
 
 
+// var array=[0,5,2,9,15,7,19,50,80]
+
+// var max=array[0]
+// for (let i=0;i<array.length; i++){
+//     for(let j=0;j<array.length; j++){
+//         if(array[i] > array[j]){
+//             max=array[i]
+//         }
+//     }
 // }
-//  console.log(max)
+//  console.log("max number is "+max)
+//   let newArr = [];
 
+//     for(let i = 0; i < Array.length; i++) {
+//         let temp = arr[i];
+//         let x = 0;
+//         for(let j = 0; j < temp.length; j++) {
+
+//             if(temp[j] > x) {
+//                 x = temp[j];
+//             }
+//         }
+
+//         newArr.push(x);
+//         //console.log(arr[i])
+//     }
+//     console.log(newArr);
+
+//ex 5
+function sumOfSquares(num) {
+  return num * num;
+}
+var num = parseInt(prompt("Enter a number:"));
+var result=sumOfSquares(num);
+console.log(result)
