@@ -36,4 +36,16 @@
 //     console.log("Minimum element is:" + minValue);
 //     console.log("Minimum element is:" + maxValue);
 // }
+// findMinMax();
+
+//ex 3
+var n;
+n=parseInt(prompt("enter nb of line"))
+
+    for(let i=1; i<=n ; i++){
+        for(let j =1 ; j<=i; j++){
+console.log("*")
+        }
+        console.log("\n")
+    }
 
