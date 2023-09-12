@@ -52,17 +52,17 @@
 // ex 4
 
 
-var array=[50, 70, 20, 10, 13]
+// var array=[50, 70, 20, 10, 13]
 
-var max=array[0]
-for (let i=0;i<array.length; i++){
-    for(let j=i+1;j<array.length; j++){
-        if(array[j] > max){
-            max=array[j]
-        }
-    }
-}
- console.log("max number is "+max)
+// var max=array[0]
+// for (let i=0;i<array.length; i++){
+//     for(let j=i+1;j<array.length; j++){
+//         if(array[j] > max){
+//             max=array[j]
+//         }
+//     }
+// }
+//  console.log("max number is "+max)
  
      
    
@@ -138,3 +138,22 @@ for (let i=0;i<array.length; i++){
 // }
 // assignKey()
 
+// ex 4 with funct 
+
+function maxnb(){
+var array=[50, 70, 20, 10, 13]
+
+var max=array[0]
+for (let i=0;i<array.length; i++){
+    for(let j=i+1;j<array.length; j++){
+        if(array[j] > max){
+            max=array[j]
+        }
+    }
+}
+ console.log("max number is "+max)
+ 
+}
+maxnb()
+
+    
