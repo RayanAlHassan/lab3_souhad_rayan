@@ -17,37 +17,37 @@
 // }
 // ex2 
 
+// function findMinMax() {
+//     let Arr = [50, 70, 20, 10, 13];
+//     let minValue = Infinity;
+//     let maxValue = -Infinity;
 
-    let Arr = [50, 70, 20, 10, 13];
-    let minValue = Infinity;
-    let maxValue = -Infinity;
+//     for (let i=0 ; i<Arr.length-1;i++) {
 
-    for (let i=0 ; i<Arr.length-1;i++) {
+//         // Find minimum value
+//         if (Arr[i] < minValue)
+//             minValue = Arr[i] ;
 
-        // Find minimum value
-        if (Arr[i] < minValue)
-            minValue = Arr[i] ;
+//         // Find maximum value
+//         if (Arr[i]  > maxValue)
+//             maxValue = Arr[i] ;
+//     }
 
-        // Find maximum value
-        if (Arr[i]  > maxValue)
-            maxValue = Arr[i] ;
-    }
-
-    console.log("Minimum element is:" + minValue);
-    console.log("Minimum element is:" + maxValue);
-
+//     console.log("Minimum element is:" + minValue);
+//     console.log("Minimum element is:" + maxValue);
+// }
 // findMinMax();
 
 //ex 3
-// var n; // decleare a variable that take the nb of line 
-// n=parseInt(prompt("enter nb of line"))
+var n; // decleare a variable that take the nb of line 
+n=parseInt(prompt("enter nb of line"))
 
-//     for(let i=1; i<=n ; i++){ // nb of line
-//         for(let j =1 ; j<=i; j++){  // nb of column
-// console.log("*")
-//         }
-//         console.log("\n")
-//     }
+    for(let i=1; i<=n ; i++){ // nb of line
+        for(let j =1 ; j<=i; j++){  // nb of column
+console.log("*")
+        }
+        console.log("\n")
+    }
 
 //ex 4
 
