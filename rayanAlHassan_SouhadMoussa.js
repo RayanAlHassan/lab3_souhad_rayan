@@ -81,9 +81,25 @@
 //     console.log(newArr);
 
 //ex 5
-function sumOfSquares(num) {
-  return num * num;
+// function sumOfSquares(num) {
+//   return num * num;
+// }
+// var num = parseInt(prompt("Enter a number:"));
+// var result=sumOfSquares(num);
+// console.log(result)
+
+//ex6 with function
+// ex 3
+function displayGraph(){
+ var n; // decleare a variable that take the nb of line 
+n=parseInt(prompt("enter nb of line"))
+
+    for(let i=1; i<=n ; i++){ // nb of line
+        for(let j =1 ; j<=i; j++){  // nb of column
+console.log("*")
+        }
+        console.log("\n")
+    }
 }
-var num = parseInt(prompt("Enter a number:"));
-var result=sumOfSquares(num);
-console.log(result)
+
+displayGraph()
